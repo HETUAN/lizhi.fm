@@ -80,7 +80,7 @@ def run():
         fname = deal_file_name(name)+".mp3"
         
         print "Downloading --> "+ fname
-        #urllib.urlretrieve(url,fname) 
+        urllib.urlretrieve(url,fname) 
         print "-----------------------------------------------------"
     print "It's all over! Press any key to exit."
  
